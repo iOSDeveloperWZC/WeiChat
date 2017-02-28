@@ -1,0 +1,119 @@
+
+/*背景*/
+.bgView
+{
+    width: 100%;
+    background-color:#F5F5F5; 
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/*背景视图*/
+.selectLocation
+{
+    display: flex;
+    flex-flow: row;
+    background-color: white;
+    align-items: center;
+}
+
+/*选择地址视图*/
+.selectLocation0
+{
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+}
+/*选择地址*/
+.selectView{
+
+    display: flex;
+    flex-flow: row;
+    padding: 0 30rpx;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+/*下划线*/
+.selectView:first-child::before{
+
+    display: none;
+}
+
+/*图片*/
+.imageVIew
+{
+    width: 60rpx;
+    height: 60rpx;
+    padding: 20rpx;
+}
+/*提示*/
+.title
+{
+    display: flex;
+    align-items: center;
+    color: lightgray;
+    font-size: 32rpx;
+    padding: 20rpx 20rpx;
+}
+
+.title::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    right: 10rpx;
+    left: 10rpx;
+    border-top: 1rpx solid lightgray;
+    top: 0;
+}
+
+
+/*地址*/
+.content
+{
+    display: flex;
+
+    font-size: 32rpx;
+    padding-left: 40rpx;
+    align-items: center;
+}
+
+/*查询按钮*/
+.querybtn{
+
+    background-color: darkorange;
+    text-align: center;
+    color: white;
+    word-spacing: 20rpx;
+    padding: 20rpx 0;
+    margin: 0 60rpx;
+    font-size: 30rpx;
+    border-radius: 10rpx;
+}
+
+.line{
+
+    border-top: 1rpx solid lightgray;
+    margin: 0px 0px 0px 50rpx;
+}
+
+/*选择时间*/
+.selectDate
+{
+    display: flex;
+    flex-flow: row;
+    margin: 30rpx 0px;
+    background-color: white;
+    padding-left: 30rpx;
+}
+
+.currentDate{
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+

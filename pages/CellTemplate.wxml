@@ -1,0 +1,10 @@
+
+<template name="firstPageCell">
+    <view class="cell" style="background-color:{{color}}"> 
+    <image class="aspectFill" src="{{image}}"></image>
+    <view class="titlecen">
+    <text class="Celltitle">{{title}}</text>
+    <text class="Celltitle1">{{subTitle}}</text>
+    </view>
+    </view>
+</template>

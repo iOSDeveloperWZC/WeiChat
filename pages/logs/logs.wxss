@@ -1,0 +1,101 @@
+.backgroud
+{
+background-color: #F3F3F5;
+}
+.headimageVIew
+{
+    size: 0;
+    opacity: 0;
+}
+.show{
+
+  size: 180rpx 180rpx;
+  opacity: 1;
+}
+.headView
+{
+    padding: 70rpx 0rpx 70rpx 0rpx;
+    /*display: flex;*/
+    /*flex-direction: column;
+    align-content: center;
+    justify-content: center;*/
+    background-color: #F3F3F5;
+    text-align:center;
+}
+/*登录提示*/
+.logoAlert
+{
+  font-size: 34rpx;
+  color: gray;
+  /*text-align: center;*/
+}
+/*登录按钮*/
+.logiBtn
+{
+ 
+  width: 200rpx;
+  border-radius: 20rpx;
+  background-color: orange;
+  /*text-align: center;*/
+  font-size: 30rpx;
+  color: white;
+  padding: 10rpx 0px;
+  margin-top: 20rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*背景*/
+.navgationView
+{
+  background-color: white;
+}
+/*cell*/
+.navgationCell{
+
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  
+}
+.imageview
+{
+  padding: 20rpx 20rpx;
+  width: 44rpx;
+  height: 44rpx;
+}
+/*标题*/
+.cellTitle
+{
+  color: black;
+  font-size: 34rpx;
+  padding: 20rpx 0px;
+  flex: 1;
+}
+
+.imageview::before
+{
+  content: "";
+  position: absolute;
+  left: 30rpx;
+  right: 0rpx;
+  bottom: 0px;
+  height: 1px;
+  border-top: 1rpx solid lightgray;
+  color: #D8D8D8;
+}
+
+.navgationCell:first-child::before
+{
+  display: none;
+}
+
+.arrow{
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  margin: auto 30rpx;
+}

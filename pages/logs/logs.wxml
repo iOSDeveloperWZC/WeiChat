@@ -1,0 +1,13 @@
+<view>
+  <view class="headView">    
+    <text class="logoAlert">登录携程，开启旅行</text>
+    <view class="logiBtn" bindtap="loginMethod">微信登录</view>
+  </view>
+  <view class="navgationView" wx:for="{{array}}" wx:key="*this">
+    <navigator class="navgationCell" url="">
+    <image class="imageview" src="../../image/{{item.image}}"></image>
+    <view class="cellTitle">{{item.title}}</view>
+    <view class="arrow"></view>
+    </navigator>
+  </view>
+</view>

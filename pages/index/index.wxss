@@ -1,0 +1,56 @@
+
+.bgView{
+background-color: "#F3F3F3";
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+/*整块*/
+.cell{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  border-radius:10rpx;
+  /*vertical-align: middle;*/
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+/*title*/
+.Celltitle{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/*子标题*/
+.Celltitle1{
+    color: #F5F5F5;
+    font-size: 14px;
+}
+/*图片*/
+.aspectFill{
+  height: 100rpx;
+  width: 100rpx;
+  padding: 30rpx;
+}
+/*标题view*/
+.titlecen
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+/*箭头*/
+.arrow{
+
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  margin-right: 20rpx;
+  /*position: absolute;*/
+  /*right: 40rpx;*/
+}

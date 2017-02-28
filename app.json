@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "subPages/airplane/airplane",
+    "subPages/bus/bus",
+    "subPages/hotel/hotel",
+    "subPages/tourist/tourist",
+    "subPages/train/train"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "杭州信使网络科技有限公司",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/1.png",
+      "selectedIconPath": "image/1s.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "我的",
+      "iconPath": "image/2.png",
+      "selectedIconPath": "image/2s.png"
+    }],
+    "color": "#939295",
+    "backgroundColor": "#FCFCFC",
+    "borderStyle": "black",
+    "selectedColor": "#04B4E5"
+  },
+  "debug":"true"
+}

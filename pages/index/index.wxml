@@ -1,0 +1,19 @@
+
+<import src="/pages/CellTemplate.wxml"/>
+<view class="bgView">
+  <block wx:for="{{arr}}" wx:key="*this">
+   <navigator url="{{item.ur}}" class="cell" style="background-color:{{item.color}}"> 
+
+    <image class="aspectFill" src="{{item.image}}"></image>
+
+    <view class="titlecen">
+    <text class="Celltitle">{{item.title}}</text>
+    <text class="Celltitle1">{{item.subTitle}}</text>
+    </view>
+
+    <view class="arrow"></view>
+
+    </navigator>
+  </block>
+</view>
+

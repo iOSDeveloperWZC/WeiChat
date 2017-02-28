@@ -1,0 +1,34 @@
+<import src="../../Template/touristTemplate.wxml"/>
+
+<view>
+    <view class="location">
+    <view class="location0">{{location}} </view>
+    <input class="search" placeholder="景点名称/目的地"/> 
+    <view class="location1">搜索</view>
+    </view>
+
+    <view class="container bgviewss">
+    <block wx:for="{{array}}" wx:key="*this">
+    <view class="touristCell">
+    
+        <navigator class="touristCellNav" url="{{item.url}}">
+        <image class="touristImage" src="{{item.imageurl}}" mode="aspectFill">
+        </image>
+
+        <view class="address_score">
+            <text class="text title">{{item.title}}</text>
+            <text class="text address">{{item.address}}</text>
+            <text class="text score">{{item.score}}</text>
+        </view>
+
+        <view class="priceView">
+            <text class="text oldPrice">{{item.oldPrice}}</text>
+            <text class="text newPrice">{{item.price}}起</text>
+        </view>
+
+        </navigator>
+    </view>
+    </block>
+    </view>
+
+</view>

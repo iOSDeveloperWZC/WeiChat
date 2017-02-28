@@ -1,0 +1,32 @@
+
+<view class="bgView" style="min-height:{{height}}px">
+    <view class="selectLocation">
+        <view class="selectLocation0">
+        <view class="selectView">
+            <view class="title">出发城市</view>
+            <view class="content">{{startLocation}}</view>
+        </view>
+        
+        <view class="line"></view>
+
+        <view class="selectView">
+            <view class="title">到达城市</view>
+            <view class="content">{{endLocation}}</view>
+        </view>
+        </view>
+        <image class="imageVIew" src="../../image/selectImage.png"></image>
+    </view>
+
+    <view class="selectDate">
+            <view class="title date">出发日期</view>
+            <picker class="currentDate" mode="date" value="{{selectDate}}" start="{{currentDate}}"  bindchange="bindDateChange">
+    <view class="content">
+      {{selectDate}}
+    </view>
+  </picker>
+            
+    </view>
+    
+    <view class="querybtn">查询</view>
+</view>
+
